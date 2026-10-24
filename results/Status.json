@@ -1,0 +1,110 @@
+{
+  "FlatAe": {
+    "train": {
+      "iteration": 5150.0,
+      "wall_h": 0.804692,
+      "sim_steps": 52998144.0,
+      "wm_loss": 0.294715,
+      "wm_err8": 0.459152,
+      "pi_loss": -7.60373,
+      "v_loss": 0.0138781,
+      "imag_rew": 0.741507,
+      "pi_gradnorm": 1.71737,
+      "imag_survival": 0.990502,
+      "sim_rew": 0.70565,
+      "ep_len": 284.1,
+      "ep_ret_norm": 0.361698,
+      "term_frac": 0.330113,
+      "it_per_s": 1.67345,
+      "lr": 0.000199797
+    },
+    "eval": {
+      "iteration": 2000.0,
+      "train_wall_h": 0.2801,
+      "norm_return": 0.5465,
+      "norm_return_framew": 0.5782,
+      "n_failed": 13.0
+    }
+  },
+  "StepsAe": {
+    "train": {
+      "iteration": 5150.0,
+      "wall_h": 0.802776,
+      "sim_steps": 52998144.0,
+      "wm_loss": 0.179409,
+      "wm_err8": 0.304007,
+      "pi_loss": -7.55137,
+      "v_loss": 0.0107485,
+      "imag_rew": 0.739204,
+      "pi_gradnorm": 1.86542,
+      "imag_survival": 0.997138,
+      "sim_rew": 0.712584,
+      "ep_len": 319.88,
+      "ep_ret_norm": 0.499669,
+      "term_frac": 0.0213806,
+      "it_per_s": 1.66653,
+      "lr": 0.000199797
+    },
+    "eval": {
+      "iteration": 3000.0,
+      "train_wall_h": 0.4455,
+      "norm_return": 0.5676,
+      "norm_return_framew": 0.5924,
+      "n_failed": 14.0
+    }
+  },
+  "FlatBase": {
+    "train": {
+      "iteration": 4050.0,
+      "wall_h": 0.799288,
+      "sim_steps": 41734144.0,
+      "wm_loss": 0.233677,
+      "wm_err8": 0.367212,
+      "pi_loss": -7.18329,
+      "v_loss": 0.0105311,
+      "imag_rew": 0.708565,
+      "pi_gradnorm": 2.02036,
+      "imag_survival": 0.9894,
+      "sim_rew": 0.6798,
+      "ep_len": 356.09,
+      "ep_ret_norm": 0.50033,
+      "term_frac": 0.296997,
+      "it_per_s": 1.14322,
+      "lr": 0.000199874
+    },
+    "eval": {
+      "iteration": 3000.0,
+      "train_wall_h": 0.5764,
+      "norm_return": 0.6324,
+      "norm_return_framew": 0.655,
+      "n_failed": 9.0
+    }
+  },
+  "StepsBase": {
+    "train": {
+      "iteration": 4050.0,
+      "wall_h": 0.805211,
+      "sim_steps": 41734144.0,
+      "wm_loss": 0.27427,
+      "wm_err8": 0.447241,
+      "pi_loss": -7.04181,
+      "v_loss": 0.019044,
+      "imag_rew": 0.68534,
+      "pi_gradnorm": 2.2477,
+      "imag_survival": 0.988553,
+      "sim_rew": 0.645579,
+      "ep_len": 391.874,
+      "ep_ret_norm": 0.487628,
+      "term_frac": 0.236584,
+      "it_per_s": 1.29655,
+      "lr": 0.000199874
+    },
+    "eval": {
+      "iteration": 2000.0,
+      "train_wall_h": 0.3678,
+      "norm_return": 0.339,
+      "norm_return_framew": 0.3489,
+      "n_failed": 24.0
+    }
+  }
+}

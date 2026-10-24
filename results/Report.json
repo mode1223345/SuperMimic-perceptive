@@ -1,0 +1,54 @@
+{
+  "best_step": 59400,
+  "best_valid_loss": 0.00017065095016732812,
+  "seconds": 111.78281426429749,
+  "validation": {
+    "height_rmse_m": 0.012158368714153767,
+    "height_mae_m": 0.006664416752755642,
+    "edge_rmse_m": 0.02929188869893551,
+    "edge_pixels": 320522,
+    "validity_accuracy": 0.9994222521781921
+  },
+  "canonical_profiles": {
+    "flat": {
+      "height_rmse_m": 0.0031951493583619595,
+      "height_mae_m": 0.0018288601422682405,
+      "edge_rmse_m": 0.0,
+      "edge_pixels": 0,
+      "validity_accuracy": 0.9995251893997192
+    },
+    "steps": {
+      "height_rmse_m": 0.008068321272730827,
+      "height_mae_m": 0.005344758275896311,
+      "edge_rmse_m": 0.014777814038097858,
+      "edge_pixels": 253262,
+      "validity_accuracy": 0.9995365142822266
+    }
+  },
+  "per_map_mean_baseline": {
+    "height_rmse_m": 0.03846807777881622,
+    "height_mae_m": 0.022478578612208366,
+    "edge_rmse_m": 0.059888433665037155,
+    "edge_pixels": 320522,
+    "validity_accuracy": 1.0
+  },
+  "data": {
+    "train_maps": 65536,
+    "valid_maps": 8192,
+    "note": "Disjoint procedural geometries; canonical Flat/Steps shared, with disjoint poses."
+  },
+  "encoder": {
+    "kind": "frozen_ae",
+    "version": 1,
+    "architecture": "HeightEncoder-v1",
+    "map_dim": 32,
+    "local_shape": [
+      2,
+      15,
+      23
+    ],
+    "height": "terrain_z-base_z",
+    "alignment": "gravity+yaw",
+    "sha256": "6fd7a16209283863820c40d0903e60a00afe3149d67e4ad82fb3c045874fdb54"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "encoder": {
+    "kind": "frozen_ae",
+    "version": 1,
+    "architecture": "HeightEncoder-v1",
+    "map_dim": 32,
+    "local_shape": [
+      2,
+      15,
+      23
+    ],
+    "height": "terrain_z-base_z",
+    "alignment": "gravity+yaw",
+    "sha256": "6fd7a16209283863820c40d0903e60a00afe3149d67e4ad82fb3c045874fdb54"
+  },
+  "checks": {
+    "Smoke": {
+      "iteration": 8,
+      "encoder_unchanged": true,
+      "all_metrics_finite": true,
+      "actor_received_gradient": true,
+      "last_metrics": {
+        "iteration": "8",
+        "wall_h": "0.000701673",
+        "sim_steps": "6656",
+        "wm_loss": "5.25586",
+        "wm_err8": "9.65728",
+        "pi_loss": "-0.573027",
+        "v_loss": "0.00361209",
+        "imag_rew": "0.370067",
+        "pi_gradnorm": "0.312331",
+        "imag_survival": "0.943397",
+        "sim_rew": "0.348546",
+        "ep_len": "20",
+        "ep_ret_norm": "0.302093",
+        "term_frac": "1",
+        "it_per_s": "2.96891",
+        "lr": "0.0002"
+      }
+    },
+    "Compiled": {
+      "iteration": 6,
+      "encoder_unchanged": true,
+      "all_metrics_finite": true,
+      "actor_received_gradient": true,
+      "last_metrics": {
+        "iteration": "6",
+        "wall_h": "0.0611136",
+        "sim_steps": "323584",
+        "wm_loss": "2.28678",
+        "wm_err8": "4.38706",
+        "pi_loss": "-0.686108",
+        "v_loss": "0.0322022",
+        "imag_rew": "0.214702",
+        "pi_gradnorm": "51.4781",
+        "imag_survival": "0.220862",
+        "sim_rew": "0.38066",
+        "ep_len": "35.6344",
+        "ep_ret_norm": "0.366542",
+        "term_frac": "0.9941",
+        "it_per_s": "1.65463",
+        "lr": "0.0002"
+      }
+    },
+    "evaluation": {
+      "motions": 40,
+      "protocol": "full",
+      "note": "Untrained smoke policy; score is not a performance claim."
+    }
+  }
+}
