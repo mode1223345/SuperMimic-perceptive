@@ -1,4 +1,4 @@
-# SuperMimicAE
+# SuperMimic-perceptive
 
 这是在高程图感知 SuperMimic 原型上，研究**先预训练高程图 AE，再冻结并共享编码器**的独立实验版本。基于 [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) 的非官方 SuperMimic 复现；保留上游 [MIT License](LICENSE) 和 ETH Zurich / Chong Zhang 署名。
 
